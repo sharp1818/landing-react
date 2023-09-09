@@ -5,6 +5,7 @@ import TextColorComponent from '../../atoms/text-color/text-color';
 import styles from '../../../styles/atoms/icon/icon.module.css'
 import stylesButton from '../../../styles/atoms/button/button.module.css'
 import stylesText from '../../../styles/atoms/text-color/text-color.module.css'
+import stylesCard from '../../../styles/molecules/card/card.module.css'
 
 interface Card {
     icon?: string;
@@ -16,7 +17,7 @@ interface Card {
 const CardComponent = (props: Card) => {
     
     return (
-        <div>
+        <div className={stylesCard.cardContainer}>
             <IconComponent 
                 name={props.icon}
                 className={styles.iconCircle}

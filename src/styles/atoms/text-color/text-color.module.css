@@ -9,10 +9,17 @@
     color: #11144d;
 }
 .textBlueXL{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     color: #11144d;
 }
+
+@media screen and (max-width: 560px) {
+    .textBlueXL {
+        font-size: 36px;
+    }
+}
+
 .textBlueLg{
     font-size: 24px;
     font-weight: bold;
@@ -27,4 +34,12 @@
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+}
+
+.textWhiteWPadding{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 40px;
 }

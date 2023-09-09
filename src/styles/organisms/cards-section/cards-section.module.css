@@ -1,0 +1,13 @@
+.cardContainerGradient{
+    background: rgb(235,142,101);
+    background: linear-gradient(180deg, rgba(235,142,101,1) 14%, rgba(196,43,192,1) 82%, rgba(148,35,145,1) 100%);
+    box-shadow: 0px 1px 17px -2px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 0px 1px 17px -2px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 1px 17px -2px rgba(0,0,0,0.74);
+    padding: 0px 16px 20px 16px;
+    border-radius: 14px;
+    display: grid;
+    flex-direction: column;
+    gap: 14px;
+    height: 160px;
+}

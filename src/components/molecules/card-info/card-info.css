@@ -1,2 +1,23 @@
-.members { grid-area: members; }
-.courses { grid-area: courses; }
+.members {
+    grid-area: members;
+    position: relative;
+    left: 50px;
+}
+
+@media screen and (max-width: 860px) {
+    .members {
+        left: 30px;
+    }
+}
+
+.courses {
+    grid-area: courses;
+    position: relative;
+    right: 50px;
+}
+
+@media screen and (max-width: 860px) {
+    .courses {
+        right: 30px;
+    }
+}

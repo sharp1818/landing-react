@@ -3,6 +3,7 @@ import Header from '../../components/organisms/header/header';
 import LogoSection from '../../components/organisms/logo-section/logo-section';
 import CardsSection from '../../components/organisms/cards-section/cards-section';
 import Footer from '../../components/organisms/footer/footer';
+import stylesHome from './home.module.css';
 import data from '../../data/home/data.json'
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
         buttonText={data.logoSection.buttonText}
         cardInfo={data.logoSection.cardInfo}
       />
-      <div>
+      <div className={stylesHome.cardsLayout}>
         {data.cardSection.map((card, index) => (
           <CardsSection key={index}
               icon={card.icon}
