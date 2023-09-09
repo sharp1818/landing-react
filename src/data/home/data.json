@@ -1,0 +1,65 @@
+{
+    "header": {
+        "textTitle": "skilled",
+        "buttonTitle": "Get Started"
+    },
+    "logoSection": {
+        "title": "Maximize skill minimize budget",
+        "description": "Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want",
+        "buttonText": "Get Started",
+        "cardInfo": [
+            {
+                "title": "Members",
+                "number": "29k",
+                "id": "members"
+            },
+            {
+                "title": "Course hours",
+                "number": "1,451",
+                "id": "courses"
+            }
+        ]
+    },
+    "cardSection": [
+        {
+            "icon": "xd",
+            "title": "ga",
+            "description": "xd",
+            "buttonMsg": "ga"
+        },
+        {
+            "icon": "RUNING",
+            "title": "Animation",
+            "description": "Learn the latest animation techniques to create stunning motion design and captivate your audince",
+            "buttonMsg": "Get Started"
+        },
+        {
+            "icon": "DESIGN",
+            "title": "Design",
+            "description": "Create beautiful, usable interfaces to help shape the future of how the web looks",
+            "buttonMsg": "Get Started"
+        },
+        {
+            "icon": "PHOTO",
+            "title": "Photography",
+            "description": "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos",
+            "buttonMsg": "Get Started"
+        },
+        {
+            "icon": "CRYPTO",
+            "title": "Crypto",
+            "description": "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course",
+            "buttonMsg": "Get Started"
+        },
+        {
+            "icon": "BUSINESS",
+            "title": "Business",
+            "description": "A step-by-step playbook to help you start, scale, and sustain your businesss without outside investment",
+            "buttonMsg": "Get Started"
+        }
+    ],
+    "footer": {
+        "textTitle": "skilled",
+        "buttonTitle": "Get Started"
+    }
+}

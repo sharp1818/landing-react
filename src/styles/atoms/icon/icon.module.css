@@ -1,0 +1,12 @@
+.iconCircle{
+    background: rgb(235,142,101);
+    background: linear-gradient(180deg, rgba(235,142,101,1) 14%, rgba(196,43,192,1) 82%, rgba(148,35,145,1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 50%;
+}

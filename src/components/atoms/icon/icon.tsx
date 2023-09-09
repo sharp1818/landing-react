@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { GetIcon } from '../../../utils/helpers';
 
 interface Icon {
-    name?: string;
+    name?: string | any;
+    className: string;
 }
 
 const IconComponent = (props: Icon) => {
     
     return (
-        <div>{props.name}</div>
+        <Fragment>
+            <img src={GetIcon(props.name)} alt='logo' className={`${props.className}`}/>
+        </Fragment>
     );
 }
 

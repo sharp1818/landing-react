@@ -1,0 +1,13 @@
+.footer {
+    max-width: 999px;
+    background-color: #11144d;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBg {
+    background-color: #11144d;
+}

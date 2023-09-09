@@ -2,12 +2,13 @@ import React from 'react';
 
 interface TextColor {
     title?: string;
+    className: string;
 }
 
 const TextColorComponent = (props: TextColor) => {
     
     return (
-        <div>{props.title}</div>
+        <div className={`${props.className}`}>{props.title}</div>
     );
 }
 
